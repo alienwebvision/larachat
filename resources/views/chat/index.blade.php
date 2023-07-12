@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('title', 'Chat - LaraChat')
+@section('title', 'SisEstoque - SisChat')
 
 @section('content')
     <chat-component></chat-component>

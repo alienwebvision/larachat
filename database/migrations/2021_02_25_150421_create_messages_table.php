@@ -22,11 +22,11 @@ class CreateMessagesTable extends Migration
             $table->timestamps();
 
             $table->foreign('sender_id')
-                    ->references('id')
-                    ->on('users');
+                ->references('id')
+                ->on('users');
             $table->foreign('receiver_id')
-                    ->references('id')
-                    ->on('users');
+                ->references('id')
+                ->on('users');
         });
     }
 
